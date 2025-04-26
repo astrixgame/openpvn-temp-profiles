@@ -3,18 +3,18 @@ A PowerShell tool for automatically creating and connecting temporary OpenVPN pr
 
 ## 🧑🏻‍💻 Usage
 ### Define profile name and credentials
-SetAndRun.ps1: set creds and run vpn
+SetAndRun.ps1: set creds and run VPN
 ```powershell
 $profile = "<profile name>"
 $username = "<auth username>"
 $authpwd = "<auth password>"
 $privpwd = "<private key password>"
 ```
-GetStatus.ps1: returns connection state of vpn profile
+GetStatus.ps1: returns connection state of VPN profile
 ```powershell
 $profile = "<profile name>"
 ```
-GetCreds.ps1: returns vpn credentials of all vpn profiles
+GetCreds.ps1: returns vpn credentials of all VPN profiles
 >To start PS script in background you can use:<br>`powershell -windowstyle hidden -file C:\some\path\to\SetAndStart.ps1`
 ## Additional options/parts
 Copy downloaded OVPN profile:
