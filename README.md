@@ -10,7 +10,7 @@ $username = "<auth username>"
 $authpwd = "<auth password>"
 $privpwd = "<private key password>"
 ```
-**GetStatus.ps1**: Returns connection state of selected VPN profile
+**GetStatus.ps1**: Returns connection state of selected VPN profile, works only for TCP VPN profiles
 ```powershell
 $profile = "<profile name>"
 ```
