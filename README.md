@@ -16,7 +16,8 @@ $profile = "<profile name>"
 ```
 **GetCreds.ps1**: Returns vpn credentials of all VPN profiles
 >To start PS script in background you can use:<br>`powershell -windowstyle hidden -file C:\some\path\to\SetAndStart.ps1`
-## Additional options/parts
+
+## 🛠 Additional options/parts
 Copy downloaded OVPN profile:
 ```powershell
 $downloadpath = "C:\Users\$currentuser\Downloads\$profile.ovpn"
