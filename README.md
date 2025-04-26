@@ -1,4 +1,4 @@
-# OpenVPN profile automation
+# OpenVPN temp profile automation
 A PowerShell tool for automatically creating and connecting temporary OpenVPN profiles. Credentials are stored in the Windows Registry and securely deleted after use.
 
 ## 🧑🏻‍💻 Usage
